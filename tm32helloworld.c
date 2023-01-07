@@ -56,8 +56,6 @@ static void MX_USART2_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 uint8_t data1[16] ="\r\n";
-uint8_t bin[16];
-uint8_t data2[16];
 uint8_t data3[16][4] = {"0000", "0001", "0010", "0011", "0100", "0101", "0110", "0111", "1000", "1001", "1010", "1011", "1100", "1101", "1111"};
 uint8_t data4[16] = "0000";
 int button;
@@ -131,12 +129,6 @@ int main(void)
   * @brief System Clock Configuration
   * @retval None
   */
-
-
-
-
-
-
 
 void tostring(char data2[], int num)
 {
