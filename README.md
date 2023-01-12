@@ -17,7 +17,7 @@ Interface the UART and one more devices using the STM32F4 ports
 ## Software
 - [x] PuTTY
 ## Procedure
-1. In this milestone, the speed of knight rider lights are determined by the DIP switch value only when the push button is pressed.
+1. In this milestone, the PuTTY terminal was uses as the output .
 2. The source code [stm32helloworld.c](paste link here)
 3. The input data registers, GPIOA_IDR are used to read in input data from push button and DIP switch.
 
